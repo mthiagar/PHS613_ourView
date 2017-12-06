@@ -10,6 +10,14 @@
   <h1>Welcome to ourView</h1>
   <h2>Please enter your login information:</h2>
     <form>
+    <div>
+      <label for="porg"></label>
+      I am a
+      <select id="porg">
+        <option value="Patient">Patient</option>
+        <option value="Caregiver">Caregiver</option>
+      </select>
+    </div>
     <div class="form-group">
       <label for="usernameinput">Username</label>
       <input type="text" class="form-control" id="usernameinput" placeholder="username">
@@ -19,6 +27,7 @@
       <input type="password" class="form-control" id="passwordinput" placeholder="Password">
     </div>
     <input type="button" value="Login" onclick="window.location.href='main.html'" />
+  
     </form>
 </body>
 </html>
