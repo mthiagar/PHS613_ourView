@@ -3,21 +3,24 @@
 <head>
   <title>ourView Login Page</title>
   <link rel="stylesheet" type="text/css" href="styles/login.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500" rel="stylesheet">
+
 </head>
 <body>
-  <h1>Login</h1>
-  <form>
-  <label for="username">Username</label>
-  <input type="text" name="username" placeholder="username">
-  <div>
-  <label for="password">Password</label>
-  <input type="password" name="username" placeholder="password">
-  <input type="button" value="Login" onclick="window.location.href='main.html'" />
-</div>
-  </form>
+  <h1>Welcome to ourView</h1>
+  <h2>Please enter your login information:</h2>
+    <form>
+    <div class="form-group">
+      <label for="usernameinput">Username</label>
+      <input type="text" class="form-control" id="usernameinput" placeholder="username">
+    </div>
+    <div class="form-group">
+      <label for="passwordinput">Password</label>
+      <input type="password" class="form-control" id="passwordinput" placeholder="Password">
+    </div>
+    <input type="button" value="Login" onclick="window.location.href='main.html'" />
+    </form>
 </body>
 </html>
 
- <form>
 
-</form> 

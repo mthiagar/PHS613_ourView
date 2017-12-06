@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caregiver Permission Management</title>
+</head>
+<body>
+	<h1>Care Giver Permission Management</h1>
+	<form>
+		<label for="CaregiverSelect">Choose Caregiver:</label>
+		<select name="select" id="CaregiverSelect"> <!--Supplement an id here instead of using 'name'-->
+		  <option value="Caregiver1">Harmonjot Chemma</option> 
+		  <option value="Caregiver2">Iris Chan</option>
+		  <option value="Caregiver3">Madhuran Thiagarajah</option>
+		</select>
+		<hr>
+		<table>
+			<tr>
+				<th>Record Type</th>
+				<th>Yes</th>
+				<th>No</th>
+
+			</tr>
+			<tr>
+				<td>Lab Test Results</td>
+				<td><input type="radio" name="labTest"></td>
+				<td><input type="radio" name="labTest"></td>
+			</tr>
+			<tr>
+				<td>Diagnostic Image Results</td>
+				<td><input type="radio" name="diagImage"></td>
+				<td><input type="radio" name="diagImage"></td>
+			</tr>
+			<tr>
+				<td>Clinic Visits</td>
+				<td><input type="radio" name="clinicVisit"></td>
+				<td><input type="radio" name="clinicVisit"></td>
+			</tr>
+			<tr>
+				<td>Medications</td>
+				<td><input type="radio" name="meds"></td>
+				<td><input type="radio" name="meds"></td>
+			</tr>
+		</table>
+		<button>Save Changes</button>
+		<p>How to add date selectors and manage permissions for individual records?</p>
+	</form>
+</body>
+</html>
