@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-	<h1>Care Giver Permission Management</h1>
+	<h1 class="container">Care Giver Permission Management</h1>
 
  <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -39,7 +39,7 @@
     </nav>
 
 
-	<form>
+	<form class="container">
 		<label for="CaregiverSelect">Choose Caregiver:</label>
 		<select name="select" id="CaregiverSelect"> <!--Supplement an id here instead of using 'name'-->
 		  <option value="Caregiver1">Harmonjot Chemma</option> 
@@ -47,7 +47,7 @@
 		  <option value="Caregiver3">Madhuran Thiagarajah</option>
 		</select>
 		<hr>
-		<table>
+		<table class="container">
 			<tr>
 				<th>Record Type</th>
 				<th>Yes</th>
@@ -75,11 +75,13 @@
 				<td><input type="radio" name="meds"></td>
 			</tr>
 		</table>
-		<button>Save Changes</button>
-		<p>Warning! Changing these permissions after setting individual permission records may overwrite those permissions.</p>
+		<button >Save Changes</button>
+		<p class="container">Warning! Changing these permissions after setting individual permission records may overwrite those permissions.</p>
 	</form>
 	<hr>
-	<button>Show Permissions</button>
+	<div class="container">
+	<button >Show Permissions</button>
 	<p>This button will query the mySQL database and present the persmissions in a viewonly table form</p>
+</div class="container">
 </body>
 </html>
