@@ -2,9 +2,43 @@
 <html>
 <head>
 	<title>Caregiver Permission Management</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <style type="text/css">
+        body{
+            padding-top: 50px;
+        }
+    </style>
 </head>
 <body>
 	<h1>Care Giver Permission Management</h1>
+
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+      <ul class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-ourViewnavbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        <a href="main.html" class="navbar-brand"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>ourView</a>
+      </ul>
+        <div class="collapse navbar-collapse" id="bs-ourViewnavbar">
+          <ul class="nav navbar-nav">
+            <li> <a href="forms.html">New Caregiver</a></li>
+            <li> <a href="permissions_management.html">Manage Permissions</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href="https://heenacheema.wixsite.com/mysite">About</a> </li>
+            <li> <a href="#">Contact</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
 	<form>
 		<label for="CaregiverSelect">Choose Caregiver:</label>
 		<select name="select" id="CaregiverSelect"> <!--Supplement an id here instead of using 'name'-->

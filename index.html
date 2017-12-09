@@ -4,6 +4,11 @@
   <title>ourView Login Page</title>
   <link rel="stylesheet" type="text/css" href="styles/login.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,500" rel="stylesheet">
+  <style type="text/css">
+    #loginButton{
+      text-decoration: none;
+    }
+  </style>
 
 </head>
 <body>
@@ -26,10 +31,11 @@
       <label for="passwordinput">Password</label>
       <input type="password" class="form-control" id="passwordinput" placeholder="Password">
     </div>
-    <input type="button" value="Login" onclick="window.location.href='main.html'" />
+    <a id="loginButton" href="main.html"><input type="button" value="Login"></a
   
     </form>
 </body>
+    <script type="text/javascript" src="scripts/index.js"></script>
 </html>
 
 
