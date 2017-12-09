@@ -21,6 +21,6 @@ document.querySelector("#button").addEventListener("click", function(){
 		alert("Please add a caregiver")
 	}
 	else{
-	alert('You have added '+firstname+ ' ' + lastname+ 'as a caregiver');
+	alert('You have added '+firstname+ ' ' + lastname+ ' as a caregiver');
 	}
 })
