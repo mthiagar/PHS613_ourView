@@ -10,8 +10,9 @@ function redirect() {
   if (patientORcaregiver == "Patient") {
     landingpage = "main.html";
   	document.querySelector("#loginButton").href=landingpage;
-    landingpage = "https://www.google.com";
   } else if (patientORcaregiver == "Caregiver"){
     document.querySelector("#loginButton").href="main_caregiver.html";
+  } else{
+  	document.querySelector("#loginButton").href="main_subsitute.html"
   }
 }

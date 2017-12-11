@@ -9,6 +9,18 @@
         body{
             padding-top: 50px;
         }
+        #permissions_table{
+        	color: white;
+        }
+        #permissions{
+        	color: white;
+        }
+        .white{
+        	color: white;
+        }
+        .white2{
+        	color: white;
+        }
     </style>
 </head>
 <body>
@@ -80,8 +92,59 @@
 	</form>
 	<hr>
 	<div class="container">
-	<button >Show Permissions</button>
-	<p>This button will query the mySQL database and present the persmissions in a viewonly table form</p>
+	<button id="show">Show Permissions</button>
+	<table class="container" id="permissions">
+		<h4 class=white>Permissions</h4>
+		<tr>
+			<th>Record Type</th>
+			<th>Harmonjot</th>
+			<th>Iris Chan</th>
+			<th>Superduper Carebear</th>
+		</tr>
+		<tr>
+			<td>Lab Test Results</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<td>Diagnostic Image Results</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes*</td>
+		</tr>
+		<tr>
+			<td>Clinic Visits</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<td>Medications</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes</td>
+		</tr>
+	</table>
+<div >
+	
+	<table class="container" id="permissions_table">
+		<h4 class="white2">Access Revoked</h4>
+		<tr>
+			<th>Record Type</th>
+			<th>Record</th>
+			<th>Caregiver(s)</th>
+		</tr>
+		<tr>
+			<td>Diagnostic Image</td>
+			<td>Test Result 1</td>
+			<td>SuperDuper Carebear</td>
+		</tr>
+	</table>
+
+</div>
+
 </div class="container">
+<script type="text/javascript" src="scripts/permissions.js"></script>
 </body>
 </html>
