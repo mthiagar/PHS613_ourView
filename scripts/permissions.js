@@ -6,7 +6,7 @@ var permissions_table = document.querySelector("#permissions_table")
 
 var white = document.querySelector(".white")
 
-var white2 = document.querySelector(".white") 
+var white2 = document.querySelector(".white2") 
 
 var show = document.querySelector("#show")
 
